@@ -2,7 +2,8 @@
 
 
 - `pip3 install coloredlogs`
-- `./vultr-dns-updater.py {api_key} {domain} {host}`
+- `./vultr-dns-updater.py 32FSH7FDFL9 example.com www`
+
 
 
 ```bash
