@@ -42,4 +42,4 @@ if __name__ == '__main__':
         dns_updater.update(arguments.host)
 
     except (Exception) as e:
-        print ("A Major problem has occured somewhere: ", e)
+        logger.critical(e)
