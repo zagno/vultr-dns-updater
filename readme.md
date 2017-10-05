@@ -1,9 +1,13 @@
 # Use Vultr's DNS as a dynamic dns service
 
+### Docker
+- `docker build -t vultr_dns_updater  .`
+- `docker run vultr_dns_updater 32FSH7FDFL9 example.com www`
 
-- `pip3 install coloredlogs`
+
+### Plain old python
+- `pip3 install -r requirements.txt`
 - `./vultr-dns-updater.py 32FSH7FDFL9 example.com www`
-
 
 
 ```bash
